@@ -1,7 +1,0 @@
-name, director, IMBD_score, url, durartion, casts,
-film1, dir1, 8.9, www.film1.com, 2:30, actor1,
-film2, dir2, 6.7, www.film2.com, 1:23, actor2,
-film3, dir3, 5.6, www.film3.com, 2:12, actor3,
-film4, dir4, 4.3, www.film4.com, 2:30, actor4,
-film5, dir5, 7.5, www.film5.com, 1:23, actor5,
-film6, dir6, 6.4, www.film6.com, 2:12, actor6,
