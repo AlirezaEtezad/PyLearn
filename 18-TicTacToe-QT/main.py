@@ -16,6 +16,7 @@ main_window.show()
 player = "X"
 win_count_X = 0
 win_count_O = 0
+game_mode = 1
 
 lcd_X = main_window.findChild(QLCDNumber, "lcd_X")
 lcd_O = main_window.findChild(QLCDNumber, "lcd_O")
