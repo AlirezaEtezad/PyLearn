@@ -41,15 +41,14 @@ class MainWindow(QMainWindow):
             self.empty_i = i
             self.empty_j = j
             if self.check_win():
-                msg_box = QMessageBox
-                msg_box.setText("!Great Job!")
+                msg_box = QMessageBox(text="Great Job!")
                 msg_box.exec()
 
 
         #     print("hi")
         # print (i, j)
 
-    def check_win():
+    def check_win(self):
         index = 1
         for i in range(4):
             for j in range(4):
