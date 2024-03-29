@@ -4,7 +4,7 @@
 You should guess a number between 0 and 100
 
 
-![Screen Shot](Screenshot.png)
+![Screen Shot](screenshot.png)
 
 
 ### Hint!
