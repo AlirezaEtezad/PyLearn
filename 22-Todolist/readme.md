@@ -15,6 +15,8 @@ Check the task after it's done. It will be shown in the done tasks.
 
 Click on 'X' button it will be deleted for ever.
 
+## How to run:
+Enter 'python main.py' in terminal.
 
 ## Note:
-Just run the 'main' file.
+You can also run the 'main' file.
