@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>744</width>
+    <height>659</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Sudoku Game</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="gridLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>10</y>
+      <width>741</width>
+      <height>591</height>
+     </rect>
+    </property>
+    <layout class="QGridLayout" name="grid_layout"/>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>744</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuGame">
+    <property name="title">
+     <string>Game</string>
+    </property>
+    <addaction name="menu_new"/>
+    <addaction name="menu_openfile"/>
+    <addaction name="menu_solve"/>
+    <addaction name="menu_help"/>
+    <addaction name="menu_exit"/>
+   </widget>
+   <widget class="QMenu" name="menumode">
+    <property name="title">
+     <string>Mode</string>
+    </property>
+    <addaction name="light_mode"/>
+    <addaction name="dark_mode"/>
+   </widget>
+   <widget class="QMenu" name="menuDiffculty">
+    <property name="title">
+     <string>Difficulty</string>
+    </property>
+    <addaction name="difficulty_easy"/>
+    <addaction name="difficulty_normal"/>
+    <addaction name="difficulty_hard"/>
+   </widget>
+   <addaction name="menuGame"/>
+   <addaction name="menumode"/>
+   <addaction name="menuDiffculty"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="menu_new">
+   <property name="text">
+    <string>New Game</string>
+   </property>
+  </action>
+  <action name="menu_openfile">
+   <property name="text">
+    <string>Open File</string>
+   </property>
+  </action>
+  <action name="menu_solve">
+   <property name="text">
+    <string>Solve</string>
+   </property>
+  </action>
+  <action name="menu_help">
+   <property name="text">
+    <string>Help</string>
+   </property>
+  </action>
+  <action name="menu_exit">
+   <property name="text">
+    <string>Exit</string>
+   </property>
+  </action>
+  <action name="light_mode">
+   <property name="text">
+    <string>light_mode</string>
+   </property>
+  </action>
+  <action name="dark_mode">
+   <property name="text">
+    <string>dark_mode</string>
+   </property>
+  </action>
+  <action name="difficulty_easy">
+   <property name="text">
+    <string>Easy</string>
+   </property>
+  </action>
+  <action name="difficulty_normal">
+   <property name="text">
+    <string>Normal</string>
+   </property>
+  </action>
+  <action name="difficulty_hard">
+   <property name="text">
+    <string>Hard</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
