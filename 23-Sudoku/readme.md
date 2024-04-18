@@ -14,7 +14,11 @@ Each Row, Column nad 3*3 subgrid has to have all 1-9 digits.
 
 
 ## Usage
-Enter in terminal:
+First install requiremnets:
+```
+pip install -r requiremnts.txt
+```
+Then run:
 ```
 python main.py
 
