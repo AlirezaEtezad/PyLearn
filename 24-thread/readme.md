@@ -8,8 +8,9 @@
 This app will change the videos in mp4 to audios in mp3.
 
 #### Usage
-Just add your videos into video folder
-First install requiremnets:
+Just add your videos into video folder.
+
+Install requiremnets:
 ```
 pip install -r requiremnts.txt
 ```
