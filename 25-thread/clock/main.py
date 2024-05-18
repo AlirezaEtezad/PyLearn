@@ -54,7 +54,7 @@ class MainWindow(QMainWindow):
         self.alarm_sound = QMediaPlayer()
         self.audio_output = QAudioOutput()
         self.alarm_sound.setAudioOutput(self.audio_output)
-        self.alarm_sound.setSource(QUrl.fromLocalFile("SunIsUp-Inna.mp3"))
+        self.alarm_sound.setSource(QUrl.fromLocalFile("resources/melodies/SunIsUp-Inna.mp3"))
         self.audio_output.setVolume(0.5)  # Set volume (0.0 to 1.0)
 
 # stop_watch:
